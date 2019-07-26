@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for cmd in "$@"; do
+for cmd in "$*"; do
     echo "Running '$cmd'..."
     if bash -c "$cmd"; then
         # no op
